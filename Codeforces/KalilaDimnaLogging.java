@@ -1,6 +1,8 @@
 
 // Kalila and Dimna in the Logging Industry
 // http://codeforces.com/contest/319/problem/C
+// Dynamic programming with convex hull optimization
+// O(N)
 
 import java.io.*;
 import java.util.*;

@@ -1,6 +1,8 @@
 
 // Police Operation
 // https://www.hackerrank.com/challenges/police-operation
+// Dynamic programming with convex hull optimization
+// O(N)
 
 import java.io.*;
 import java.util.*;

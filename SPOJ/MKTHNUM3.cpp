@@ -12,7 +12,6 @@
 using namespace std;
 
 const int MAX_N = 1e5 + 5;
-const int MAX_VAL = 1e9;
 
 struct wtnode {
     int s, e;
@@ -70,7 +69,7 @@ int main() {
     for(int i=1; i<=n; i++)
         a[i] = mp[a[i]];
 
-    wtnode *root = wtbuild(-MAX_VAL, MAX_VAL, a, n+1);
+    wtnode *root = wtbuild(1, MAX_N, a, n+1);
 
     while(m--) {
         int i, j, k;

@@ -12,7 +12,7 @@ const int MAX_N = 1e5 + 5;
 
 struct DynamicHull {
     static constexpr double LOOOOW = -1e100;
-    static const int MINHULL = 1;
+    static const bool MINHULL = true;
     struct line {
         long long m, c;
         bool query;
